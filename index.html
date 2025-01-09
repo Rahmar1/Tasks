@@ -3,131 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-            rel="stylesheet">
-        <title>Task3</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+        <title>Task 4</title>
     </head>
-    <body style=" background-color: rgb(242, 238, 238);">
-        <!--Header-->
-        <header
-            style=" background-image: url(image/backkgroun.jpg); width: auto; height: 600px;background-repeat: no-repeat; background-size: cover; background-position:bottom;">
-            <div>
-                <img
-                    src="image/logo-e-commerce-electronic-business-ecommerce-7fbeb8fde8e475fe9defde339a741b9a.png"
-                    alt="E-Commerce Logo"
-                    style=" vertical-align: middle; width: 100px; height: 100px;">
-                <button style="margin-left:800px ; margin-right: 40px;">
-                    <b>HOME</b></button>
-                <button style=" margin-right: 40px;"><b>ABOUT</b></button>
-                <button style=" margin-right: 40px;"><b>GALLARY</b></button>
-                <button style=" margin-right: 40px;"><b>CONTACT US </b></button>
-            </div>
-            <div style="text-align: center; margin-top: 200px; ">
-                <h1>WELCOME TO OUR FIRST WEBSITE
-                </h1>
-                <p>We have great offers with big discounts available for a
-                    temporary period.
-                </p>
-            </div>
-        </header>
-
-        <!--about-->
-        <h1 style="text-align: center; font-size: 30px;">ABOUT US</h1>
-        <section style="display: flex;">
-
-            <div style="width: 50%; margin-left: 80px; align-self: center;">
-                <h2>What is Lorem Ipsum? </h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                </p>
-            </div>
-            <div style="width: 50%; ">
-                <img src="image/about.avif" alt="img" width="500px"
-                    height="500px">
-            </div>
-        </section>
-
-        <!--Gallary-->
-        <h1 style="text-align: center; font-size: 30px; margin-top: 50px;">GALLARY</h1>
-        <section>
-            <img src="image/Camera.jpg" alt="img" width="30%" height="400px "
-                style="padding-right:20px ; padding-left: 30px;">
-            <img src="image/watch.jpg" alt="img" width="30%" height="400px "
-                style="padding-right:20px ;">
-            <img src="image/purfum.jpeg" alt="img" width="30%" height="400px "
-                style="padding-right:20px ;">
-
-        </section>
-
-        <!--Contact us-->
-        <h1 style="text-align: center; font-size: 30px;margin-top: 50px;"> CONTACT US </h1>
-        <section style="display: flex; justify-content: center;">
-        <fieldset style="width: 500px; ">
-            <legend>Send Us A Massage</legend>
-             <form style=" margin-top: 60px; ">
-            <label> Name : </label>
-            <input type="text" name="name" placeholder="Your name" id="name">
-            <br><br>
-            <label> Email : </label>
-            <input type="email" name="email" placeholder="Your Email"
-                id="email">
-            <br><br>
-            <label> Phone : </label>
-            <input type="number" name="Phone" placeholder="Your Phone"
-                id="Phone">
-            <br><br>
-            <label>Country : </label>
-            <select id="country" name="country">
-                <option value="egypt">Egypt</option>
-                <option value="ksa">Saudi aribra</option>
-                <option value="uae">UAE</option>
-                <option value="jordan">Jorden</option>
-            </select>
-            <br><br>
-            <label>Massage :</label>
-            <br>
-            <textarea name="Massage" id="Massage" rows="10"
-                cols="40"></textarea>
-            <br><br>
-            <label><b>what you suggest to add for our shop:</b> </label>
-            <br><br>
-            <label><input type="checkbox" value="Mobiles">Mobiles</label>
-            <br>
-            <label><input type="checkbox" value="laptops">Laptops</label>
-            <br>
-            <label><input type="checkbox" value="cameras">Cameras</label>
-            <br><br>
-            <label><b>You loved our shop:</b> </label>
-            <br>
-          <label><input type="radio" value="yes">Yes</label>
-          <br>
-          <label><input type="radio" value="no">No</label>
-            <br><br> 
-             <input type="button" value="send">
-            <input type="submit" value="Reset">
-          
-        </form>
-    </fieldset>
-    </section>
- <section style="text-align: center;">
-    <p><b>Shop</b></p>
-    <p>Shop@gmail.com</p>
-<p>+2055555666</p>
-<p><i class="fa-solid fa-caret-up fa-rotate-90"></i> Address</p>
-<img src="image/facebook.png" width="30px" height="30px">
-<img src="image/insta.png"width="30px" height="30px">
-<img src="image/X.svg" width="30px" height="30px">
-<img src="image/youtube.png" width="30px" height="30px">
+    <body>
+        <section class="form">
+            <center>
+                <form>
+                    <label> Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" >
+                    <br>
+                    <label>Password </label>
+                    <br>
+                    <input type="password" id="password" name="password">
+                    <br>
+                    <input type="checkbox" id="forgetpassword">
+                    <label class="forgetpassword">Remmeber Password ?
+                        <a href="forgetpassword">Forget Password ?</a>
+                    </label>
+                    <br>
+                    <input type="button" id="login" value="Login">
 <br>
-<hr>
-<p> © 2025 Our Website. All rights reserved</p>
- </section>
-    
+<h4>Don't Have an Account ? <a href="sign up">Sign Up</a> </h4>
+
+                </form>
+            </center>
+        </section>
     </body>
 </html>
