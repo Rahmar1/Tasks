@@ -1,65 +1,37 @@
-form {
-    padding-top: 40px;
-    margin-top: 100px;
-    border: 2px #ecb4b18f solid  ;
-    border-radius: 20px;
-    width: 500px;
-    height: 500px;
-    background-image: url(image/glitter-star-heart-frame-design-vector_53876-167912.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: "Crimson Text", serif;
-}
-
-#email {
-    margin: 10px 0px;
-    width: 250px;
-    height: 30px;
-    background-color: #ecb4b1;
-    border: 2px whitesmoke solid;
-    border-radius: 20px;
-}
-
-#password {
-    margin: 10px 0px;
-    width: 250px;
-    height: 30px;
-    background-color: #ecb4b1;
-    border: 2px whitesmoke solid;
-    border-radius: 20px;
-}
-
-#forgetpassword {
-    margin: 30px 0px;
+.continer{
+   width: 100%;
+   height: 100vh;
+   margin-top: 80px;
    
 }
-
-.forgetpassword {
-    font-size: 15px;
+.div1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+   position: relative;
 }
-
-label {
-    font-size: 23px;
-    color: #42352d;
+ img{
+    width: 450px;
+    height: 300px;
+ 
 }
-
-#login {
-    margin-top: 10px;
-    width: 150px;
+.div1 p,.div2 p{
+position: absolute;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    border-radius: 70%;
     height: 40px;
-    color: #42352d;
-    background-color: #ecb4b1;
-    border: 2px whitesmoke solid;
-border-radius: 40px;
-font-size: 20px;
-
+    width: 53px;
+    text-align: center;
+    padding-top: 15px;
+  background-color: palevioletred;
+position: relative;
+right: 20px;
+bottom: 40px;
 }
-h4{
-    margin-top: 80px;
-    color: #42352d;
-    font-size: 16px;
-}
-a{
-    color: #ad6f6c;
+.div2{
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
